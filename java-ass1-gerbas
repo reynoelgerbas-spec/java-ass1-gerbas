@@ -1,7 +1,5 @@
-echo "# java-ass1-gerbas" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/reynoelgerbas-spec/java-ass1-gerbas.git
-git push -u origin main
+public class HelloWorld2 {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
